@@ -1,5 +1,8 @@
 This Convolutional Neural Network (CNN) model is designed for emotion classification on human faces. The architecture includes multiple convolutional layers followed by fully connected layers, trained from scratch on a Kaggle dataset containing 35,685 examples of 48x48 pixel grayscale images of faces. The model classifies seven emotions: angry, disgust, fear, happy, sad, neutral, and surprise. Training was conducted with accuracy and loss metrics monitored, resulting in a robust model suitable for various applications such as sentiment analysis and emotion detection systems.
 
+# Model
+If you want to use this model directly without running this code, or are interested in the output of this training, you can download the weights from my kaggle repo here: https://www.kaggle.com/models/vinitvyas09/cnn_model_emotion_classification. Note that this model has a size of around 31MB.
+
 # Usage
 The model can be used for emotion classification by loading the pre-trained weights and performing inference on new face images. Below is a code snippet demonstrating how to load and use the model:
 
